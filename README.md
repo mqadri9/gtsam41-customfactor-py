@@ -2,6 +2,18 @@
 
 These changes are based on the following example project: https://github.com/borglab/GTSAM-project-python
 
+## FOR CUSTOM PROJECTS
+replace `ics ` with the project name in the following:
+
+ 1 - rename ics.i and import headers
+ 
+ In CMakeLists.txt :
+ 
+ 2- `project(ics CXX C)`
+ 
+ 3- `add_library(${PROJECT_NAME} SHARED cpp/ics2.h)
+
+
 ## ANACONDA ENVIRONMENT 
   Create a virtual python environment using [Anaconda](https://www.anaconda.com/products/individual):
   ```
