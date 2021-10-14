@@ -105,11 +105,6 @@ Processing gtsam-4.1.0-py3.7.egg
     python run_unary_constraints_1D.py
   ```
 
-## DOCUMENTATION
-
-For more detailed information, please refer to the [tutorial](TUTORIAL.md).
-
-
 ## LIST OF CHANGES 
 1- Added the interface file `ics.i`
 
