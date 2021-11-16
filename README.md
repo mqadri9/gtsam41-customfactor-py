@@ -35,7 +35,7 @@ replace `ics ` with the project name in the following:
     cd gtsam 
     mkdir build 
     cd build
-    cmake -DGTSAM_BUILD_PYTHON=ON -DGTSAM_PYTHON_VERSION=3.7 ..
+    cmake -DGTSAM_BUILD_PYTHON=ON -DGTSAM_PYTHON_VERSION=3.7 [-DGTSAM_BUILD_UNSTABLE=OFF -DGTSAM_WITH_TBB=OFF]..
     make -j4 
     sudo make install 
   ```
